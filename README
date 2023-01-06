@@ -1,0 +1,9 @@
+TRAINING SCRIPT FOR TOEFL INDEPENDENT WRITING
+
+Ugly bash script that scores essay-writing abilities using GPT-3.
+
+High-level description:
+1. Generates a topic for an essay using the OpenAI API;
+2. Opens a text file in the vim editor for the user to write an essay on the generated topic;
+3. Scores the essay and provides recommendations for improvement using the OpenAI API;
+4. Adds the score and recommendations to the text file.
